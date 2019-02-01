@@ -1,0 +1,1 @@
+c:\Users\pavel.kochkin\documents\visual studio 2015\Projects\OnionApp\OnionApp.Domain.Interfaces\obj\Debug\OnionApp.Domain.Interfaces.csprojResolveAssemblyReference.cache

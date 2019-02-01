@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OnionApp.Domain.Interfaces
+﻿namespace OnionApp.Domain.Interfaces
 {
-    public class Class1
+    using System.Collections.Generic;
+    using System;
+    using OnionApp.Domain.Core;
+
+    public interface IBookRepository : IDisposable
     {
+        IEnumerable<Book> GetBookList();
+
+        Book GetBook(int id);
+
+        void Create(Book item);
+
+        void Update(Book item);
+
+        void Delete(int id);
+
+        void Save();
     }
 }
